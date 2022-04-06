@@ -1,0 +1,13 @@
+for event in pygame.event.get()
+Is used to access all possible user inputs. Then iterate possible events using if statement. i.e. if event.type 
+
+add screen, image into init function. Then use get_rect() to create location attributes. Finally use blit method which draws image at the position specified by the self.rect
+
+refactor with helper methods to manage, events & updating of screen.
+
+to call a method from within the class: self.method()
+
+use flags to provide continous movement of ships. need to specify if keyup or keydown event.
+
+sprites allow you to group related elements in your game and act on all grouped elements at once.
+to access the list of groups, self.bullets = pygame.sprites.Group()
